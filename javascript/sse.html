@@ -7,7 +7,7 @@
   <body>
     <div id="payload"></div>
     <script>
-      const stream = new EventSource('ENTER_SSE_URL_HERE');
+      const stream = new EventSource('ENTER_Server-Sent_Events_URL_HERE');
       const handler = function(event) {
         document.getElementById('payload').innerText = event.data;
       };

@@ -16,5 +16,5 @@ $ pip install sseclient-py
 
 Run:
 ```shell
-$ ./sse.py <URL>
+$ ./sse.py <Server-Sent Events URL>
 ```

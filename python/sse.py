@@ -8,7 +8,7 @@ import sys                                  # ...only used to grab sys.argv
 def main():
     
     if (len(sys.argv) != 2):
-        print("Usage: sse.py <Server Sent Events URL>")
+        print("Usage: sse.py <Server-Sent Events URL>")
         exit()
 
     session = requests.Session()

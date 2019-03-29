@@ -14,6 +14,6 @@ $ go get github.com/donovanhide/eventsource
 
 Run:
 ```shell
-$ go run sse.go <URL>
+$ go run sse.go <Server-Sent Events URL>
 ```
 

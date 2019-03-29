@@ -14,7 +14,7 @@ func main() {
 	if len(os.Args) > 1 {
 		url = os.Args[1]
 	} else {
-		fmt.Println("Usage: go sse.go <Server Sent Events URL>")
+		fmt.Println("Usage: go sse.go <Server-Sent Events URL>")
 		os.Exit(1)
 	}
 
