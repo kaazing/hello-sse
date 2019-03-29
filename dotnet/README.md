@@ -6,7 +6,7 @@ The `App.config` file in repository specifies .NET Framework 4.7.2, but this sam
 
 This sample relies on two packages from NuGet which Visual Studio should install automatically:
 - 3v.EvtSource (version 1.1.1 or better) - Implementation of Server-Sent Events standard
-- WinHttpHandler (version 4.6.0 or better) - Microsoft package which enables the program to use HTTP/2
+- WinHttpHandler (version 4.5.2 or better) - Microsoft package which enables the program to use HTTP/2
 
 ## Instructions to Build/Run:
 - Open Visual Studio
