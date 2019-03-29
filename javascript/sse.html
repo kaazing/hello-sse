@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Polyfill for older browsers without native support for the HTML5 EventSource API. -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=EventSource"></script>
+  </head>
+  <body>
+    <div id="payload"></div>
+    <script>
+      const stream = new EventSource('ENTER_SSE_URL_HERE');
+      const handler = function(event) {
+        document.getElementById('payload').innerText = event.data;
+      };
+      stream.addEventListener('message', handler, false);
+    </script>
+  </body>
+</html>
+
