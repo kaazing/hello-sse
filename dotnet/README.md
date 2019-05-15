@@ -23,7 +23,4 @@ This sample relies on two packages from NuGet which Visual Studio should install
     - Under "Debug" select "Start Debugging"
 - Run from Command Prompt/Power Shell:
     - Navigate to ConsoleSSE\ConsoleSSE\bin\Debug directory
-    - Run `.\ConsoleSSE.exe <Server-Sent Events URL>`
-
-
-
+    - Run `.\ConsoleSSE.exe <Server-Sent Events URL> <Server-Sent Events URL> <Server-Sent Events URL> ...`
